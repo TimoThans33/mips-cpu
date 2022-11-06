@@ -1,0 +1,180 @@
+vsim -gui work.mips_tb
+# vsim -gui work.mips_tb 
+# Start time: 10:36:23 on Nov 06,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mips_tb(behaviour)
+# Loading ieee.numeric_std(body)
+# Loading work.mips(behavior)
+# Loading work.pc(behavior)
+# Loading work.jump(behavior)
+# Loading work.extend(behavior)
+# Loading work.registers(behavior)
+# Loading work.memory(behavior)
+# Loading work.control(behavior)
+# Loading work.alucontrol(behavior)
+# Loading work.alu(behavior)
+# Load canceled
+run -next
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+add wave -position insertpoint  \
+sim:/mips_tb/mips_0/pcmap/pc
+add wave -position insertpoint  \
+sim:/mips_tb/mips_0/registersmap/registers
+run -next
+run -next
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 6  Instance: /mips_tb/mips_0/memorymap
+run -all
+add wave -position insertpoint  \
+sim:/mips_tb/mips_0/pcmap/pc
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+run
+run
+run
+run -next
+run
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 6  Instance: /mips_tb/mips_0/memorymap
+add wave -position insertpoint  \
+sim:/mips_tb/clk
+# Break key hit
+# Break in Architecture behaviour at C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/mips_tb.vhdl line 26
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -next
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+run -next
+run -next
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 6  Instance: /mips_tb/mips_0/memorymap
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+add wave -position insertpoint  \
+sim:/mips_tb/mips_0/registersmap/registers(1)
+add wave -position insertpoint  \
+sim:/mips_tb/mips_0/memorymap/instruction
+run -next
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -next
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+run -next
+run -next
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 6  Instance: /mips_tb/mips_0/memorymap
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+add wave -position insertpoint  \
+sim:/mips_tb/mips_0/registersmap/registers
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+run
+run
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 6  Instance: /mips_tb/mips_0/memorymap

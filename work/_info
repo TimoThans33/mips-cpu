@@ -1,0 +1,433 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Ealu
+Z0 w1667746946
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z4 dC:/Users/timot/projects/personal/mips-cpu
+Z5 8C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/alu.vhdl
+Z6 FC:/Users/timot/projects/personal/mips-cpu/vhdl_mips/alu.vhdl
+l0
+L5 1
+VSd<Vg`mzB51bYIDW>G?;D1
+!s100 9UHWeTZf[VkO;G9jjj:XZ3
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1667748383
+!i10b 1
+Z9 !s108 1667748383.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/alu.vhdl|
+Z11 !s107 C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/alu.vhdl|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavior
+R1
+R2
+R3
+DEx4 work 3 alu 0 22 Sd<Vg`mzB51bYIDW>G?;D1
+!i122 0
+l18
+L17 86
+Vo[0`?`HTGW:^^0gejIMzl3
+!s100 =nd:SWGgG@eV][jQ7aEdW2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ealucontrol
+R0
+R2
+R3
+!i122 1
+R4
+Z14 8C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/alucontrol.vhdl
+Z15 FC:/Users/timot/projects/personal/mips-cpu/vhdl_mips/alucontrol.vhdl
+l0
+L4 1
+VNA[3hS3;ER`>VdgT[c5U:3
+!s100 kk^;[bFc;3HgjMF8iZeb<2
+R7
+32
+R8
+!i10b 1
+R9
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/alucontrol.vhdl|
+Z17 !s107 C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/alucontrol.vhdl|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+DEx4 work 10 alucontrol 0 22 NA[3hS3;ER`>VdgT[c5U:3
+!i122 1
+l16
+L15 60
+VSKD;icCaM<DKEh2PkI4if2
+!s100 `<ZOTBdl6S9l38QG5SZP21
+R7
+32
+R8
+!i10b 1
+R9
+R16
+R17
+!i113 1
+R12
+R13
+Econtrol
+R0
+R2
+R3
+!i122 2
+R4
+Z18 8C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/control.vhdl
+Z19 FC:/Users/timot/projects/personal/mips-cpu/vhdl_mips/control.vhdl
+l0
+L4 1
+VNZaNgnQnVHo;GC[o9VzTU3
+!s100 TlA9PjldKB:OII8Jj90nE0
+R7
+32
+R8
+!i10b 1
+R9
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/control.vhdl|
+Z21 !s107 C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/control.vhdl|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+DEx4 work 7 control 0 22 NZaNgnQnVHo;GC[o9VzTU3
+!i122 2
+l22
+L21 162
+V6X:`aoz?BD?LRXXhGNgOc1
+!s100 BEG__;Te2J^jDn7VXHeeb1
+R7
+32
+R8
+!i10b 1
+R9
+R20
+R21
+!i113 1
+R12
+R13
+Eextend
+R0
+R2
+R3
+!i122 3
+R4
+Z22 8C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/extend.vhdl
+Z23 FC:/Users/timot/projects/personal/mips-cpu/vhdl_mips/extend.vhdl
+l0
+L4 1
+VMH7c]@UX_>zK`bR5W:^b71
+!s100 ^olnm165gmP>W@ZMoB<a_3
+R7
+32
+R8
+!i10b 1
+R9
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/extend.vhdl|
+Z25 !s107 C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/extend.vhdl|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+DEx4 work 6 extend 0 22 MH7c]@UX_>zK`bR5W:^b71
+!i122 3
+l15
+L13 20
+VFkP67KI`kC;Ebc`:b<i1O2
+!s100 Z5oe=8;iC2iIZC21lOQ^;1
+R7
+32
+R8
+!i10b 1
+R9
+R24
+R25
+!i113 1
+R12
+R13
+Ejump
+R0
+R1
+R2
+R3
+!i122 4
+R4
+Z26 8C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/jump.vhdl
+Z27 FC:/Users/timot/projects/personal/mips-cpu/vhdl_mips/jump.vhdl
+l0
+L5 1
+VI8LI_F82B`Ai=MJkWYA@O1
+!s100 PQj^Gmn94A6[G_WQd@O9f0
+R7
+32
+R8
+!i10b 1
+R9
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/jump.vhdl|
+Z29 !s107 C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/jump.vhdl|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+DEx4 work 4 jump 0 22 I8LI_F82B`Ai=MJkWYA@O1
+!i122 4
+l22
+L19 23
+VD7QFEKC:01=g[Hm8k1nZ63
+!s100 lCBQGC7CgB>2z2XiWQ;;z2
+R7
+32
+R8
+!i10b 1
+R9
+R28
+R29
+!i113 1
+R12
+R13
+Ememory
+R0
+R1
+R2
+R3
+!i122 11
+R4
+Z30 8C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/test_3.vhdl
+Z31 FC:/Users/timot/projects/personal/mips-cpu/vhdl_mips/test_3.vhdl
+l0
+L5 1
+VfaSVT:6oASDF5YodVRl;b0
+!s100 binHQm[S:G9bP:lGF<4KK2
+R7
+32
+Z32 !s110 1667748384
+!i10b 1
+Z33 !s108 1667748384.000000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/test_3.vhdl|
+!s107 C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/test_3.vhdl|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+Z35 DEx4 work 6 memory 0 22 faSVT:6oASDF5YodVRl;b0
+!i122 11
+l25
+L20 81
+VZhRV:T_REGML9BCgPG1Qc3
+!s100 W@H?A3`WB>F4iYKYg5=?53
+R7
+32
+R32
+!i10b 1
+R33
+R34
+Z36 !s107 C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/test_3.vhdl|
+!i113 1
+R12
+R13
+Emips
+R0
+R1
+R2
+R3
+!i122 6
+R4
+Z37 8C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/mips.vhdl
+Z38 FC:/Users/timot/projects/personal/mips-cpu/vhdl_mips/mips.vhdl
+l0
+L5 1
+V2ZYAhEgC;kO2a@z=SJZSo2
+!s100 WIhP2D^H9jZ]f2^c7EUBY1
+R7
+32
+R8
+!i10b 1
+R9
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/mips.vhdl|
+Z40 !s107 C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/mips.vhdl|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+DEx4 work 4 mips 0 22 2ZYAhEgC;kO2a@z=SJZSo2
+!i122 6
+l129
+L13 204
+VRh_13Z7TE4WH=7?Bz:TZl0
+!s100 zUij>k_Mc?]1_9Sg4o_G;3
+R7
+32
+R8
+!i10b 1
+R9
+R39
+R40
+!i113 1
+R12
+R13
+Emips_tb
+R0
+R2
+R3
+!i122 7
+R4
+Z41 8C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/mips_tb.vhdl
+Z42 FC:/Users/timot/projects/personal/mips-cpu/vhdl_mips/mips_tb.vhdl
+l0
+L4 1
+V=V8T;XFA3S:SlLlMh2icZ0
+!s100 VmfDZ1X=N<1n?g3MO?IDL3
+R7
+32
+R8
+!i10b 1
+R9
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/mips_tb.vhdl|
+Z44 !s107 C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/mips_tb.vhdl|
+!i113 1
+R12
+R13
+Abehaviour
+R2
+R3
+DEx4 work 7 mips_tb 0 22 =V8T;XFA3S:SlLlMh2icZ0
+!i122 7
+l20
+L7 24
+VXdf[RX[97eS71F@Mcj:431
+!s100 ^nai?7<cAD_7<M4<M?]nF0
+R7
+32
+R8
+!i10b 1
+R9
+R43
+R44
+!i113 1
+R12
+R13
+Epc
+R0
+R1
+R2
+R3
+!i122 8
+R4
+Z45 8C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/pc.vhdl
+Z46 FC:/Users/timot/projects/personal/mips-cpu/vhdl_mips/pc.vhdl
+l0
+L5 1
+V0oI?_GaNJ0j?Q3KzB98R>2
+!s100 z[S0JLgRle:Pd73L1EEjE0
+R7
+32
+R8
+!i10b 1
+R9
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/pc.vhdl|
+Z48 !s107 C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/pc.vhdl|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+DEx4 work 2 pc 0 22 0oI?_GaNJ0j?Q3KzB98R>2
+!i122 8
+l19
+L17 23
+V9G_:l0RSiV>kJL>IPi8:l1
+!s100 gc?_2@IN0kzY2J4eCVjD^3
+R7
+32
+R8
+!i10b 1
+R9
+R47
+R48
+!i113 1
+R12
+R13
+Eregisters
+R0
+R1
+R2
+R3
+!i122 9
+R4
+Z49 8C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/registers.vhdl
+Z50 FC:/Users/timot/projects/personal/mips-cpu/vhdl_mips/registers.vhdl
+l0
+L5 1
+VXnYT3=Y0H1=BNWHiVd^960
+!s100 @]3<2_fIBAPIjf5f98?2m1
+R7
+32
+R32
+!i10b 1
+R9
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/registers.vhdl|
+Z52 !s107 C:/Users/timot/projects/personal/mips-cpu/vhdl_mips/registers.vhdl|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+DEx4 work 9 registers 0 22 XnYT3=Y0H1=BNWHiVd^960
+!i122 9
+l24
+L20 32
+VNWWl[eSmC:O3i6>E4V>QU2
+!s100 XMz`MSz_e2n_gMI2aN>W@0
+R7
+32
+R32
+!i10b 1
+R9
+R51
+R52
+!i113 1
+R12
+R13
